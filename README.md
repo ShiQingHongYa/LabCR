@@ -10,7 +10,7 @@ Visual intention understanding is a challenging task that explores the hidden in
 
 ## Method Overview
 
-![image](https://github.com/ShiQingHongYa/HLEG/blob/main/images/method.pdf)
+![image](https://github.com/ShiQingHongYa/HLEG/blob/main/images/method.png)
 
 We put the instance pairs $(v^1,v^2)$, which are augmented by data augmentation policies set $\mathcal{T}$ based on the original images, into the network $f_\theta$. The acquired feature pairs $(F^1,F^2)$ are fed into the IRP module for correlation matrix alignment. The DUDC module divides the logit outputs $(Z^1,Z^2)$ into independent logit of each target and aligns the class probability distribution from the overall and the individual.
 
